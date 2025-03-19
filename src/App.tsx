@@ -67,7 +67,7 @@ export default function App() {
         </button>
       </div>
 
-      {loading && <p className="text-gray-500">Loading data…</p>}
+      {loading && <p className="text-gray-500">Loading data...</p>}
 
       {weather && (
         <div className="weather-cards grid gap-4 grid-cols-2 max-w-lg">
