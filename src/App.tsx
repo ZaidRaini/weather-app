@@ -43,7 +43,7 @@ export default function App() {
     } finally {
       setTimeout(() => {
         setLoading(false);
-      }, 500);
+      }, 1000);
     }
   };
 
